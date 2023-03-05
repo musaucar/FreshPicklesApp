@@ -1,0 +1,443 @@
+*{
+    box-sizing: border-box;
+    font-family: "Kanit", "sans-serif";
+    justify-content: center;
+}
+
+
+body{
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    gap: 30px;
+}
+
+
+.bottle{
+    background-color: #8ddfff;
+    width: 100%;
+    height: 136em;
+    margin-top: 5em;
+    z-index: -1;
+    margin: auto;
+    position: absolute;
+    animation: animate 6s ease-in-out infinite;
+}
+
+.container-lg{
+   width: 100%;
+   position: relative;
+   margin: auto;
+}
+
+.container-page{
+    background-color: #F6F6F6;
+    display: flex;
+    width: 85%;
+    min-height: 100vw;
+    border: none;
+    position: relative;
+    flex-direction: row;
+    border-radius: 10px;
+    margin:auto;
+    border: 2px solid #555;
+    justify-content: center;
+    margin-bottom: 3em;
+    z-index: 1;
+}
+
+
+.category-section{
+    margin: auto;
+    margin: 0 0px 2em 3.8em;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.catBtn{
+    width: 20em;
+    border: 2px solid #555;
+    outline: none;
+    margin: 0 1.5em 0 1.5em;
+    transition: .2s all ease;
+    transform: skew(-10deg);
+}
+
+.catItem{
+    width: 20em;
+}
+
+
+.catBtn:hover{
+    background-color: #808080;
+    color: white;
+
+}
+
+@media(max-width: 767px){
+    .category-section, .catBtn, .catItem{
+        width: 20em;
+        margin: 0 0px 2em 3.5em;
+    }
+}
+@media(max-width: 574px){
+    .category-section, .catBtn, .catItem{
+        width: 20em;
+        margin: 0 0px 2em 5px;
+    }
+}
+
+
+/* movie line start */
+
+#movieLine{
+    display: flex;
+    position: relative;
+    height: 15px;
+    align-items: center;
+    justify-content: center;
+    margin: 17px 0 0 10px;
+}
+
+.movieLineFirst{
+    display: flex;
+    position: relative;
+    width: 110px;
+    height: 35px;
+    background-color: gray;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    margin-right: 20px;
+    justify-content: flex-start;
+    border: none;
+    transform: skew(-10deg);
+
+}
+
+.movieLineSec{
+    margin-left: 25px;
+    display: flex;
+    position: relative;
+    width: 340px;
+    height: 35px;
+    background-color: gray;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    margin-right: 20px;
+    justify-content: flex-start;
+    border: none;
+    transform: skew(-10deg);
+}
+
+@media(max-width: 767px){
+    #movieLine, .movieLineFirst, .movieLineSec,.movieLine>h6{
+        width: 0;
+        height: 0;
+        content: "";
+    }
+}
+@media(max-width: 574px){
+    #movieLine, .movieLineFirst, .movieLineSec,.movieLine>h6{
+        content: "";
+        width: 0;
+        height: 0;
+    }
+}
+
+/* movie line end */
+
+/* pagination start */
+
+.page-item{
+    margin: 0 5px 0 5px;
+    
+}   
+
+.page-link{
+    border-radius: 8px;
+    color: #808080;
+}
+.page-link>span{
+    border-radius: 50%;
+}
+
+
+.page-link:hover{
+    background-color: #808080;
+    color: white;
+}
+/* pagination end */
+
+
+
+
+@keyframes animate {
+	0%,
+	100% {
+		clip-path: polygon(
+            0% 2%, 0% 100%, 100% 100%, 100% 1%, 83% 3%, 56% 1%, 33% 4%, 16% 1%);
+    }
+
+	50% {
+		clip-path: polygon(
+            0% 2%, 0% 100%, 100% 100%, 100% 2%, 80% 1%, 57% 3%, 39% 1%, 16% 2%);
+	}
+}
+
+
+/* booble and piclkes starts */
+
+.bobble{
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.5;
+}
+/* left side bobbles start*/
+
+.bobble1{
+    position: absolute;
+    left: 160px;
+    top: 900px;
+    animation: moveup 2s infinite;
+}
+.bobble11{
+    position: absolute;
+    left: 140px;
+    top: 1500px;
+    animation: moveup 2s infinite;
+}
+.bobble112{
+    position: absolute;
+    left: 140px;
+    top: 1200px;
+    animation: moveup 2s infinite;
+}
+.bobble2{
+    position: absolute;
+    left: 80px;
+    top: 1050px;
+    animation: moveup 2s infinite;
+}
+.bobble22{
+    position: absolute;
+    left: 130px;
+    top: 1700px;
+    animation: moveup 2s infinite;
+}
+.bobble3{
+    position: absolute;
+    left: 150px;
+    top: 450px;
+    animation: moveup 2s infinite;
+}
+.bobble33{
+    position: absolute;
+    left: 110px;
+    top: 600px;
+    animation: moveup 2s infinite;
+}
+.bobble4{
+    position: absolute;
+    left: 120px;
+    top: 200px;
+    animation: moveup 2s infinite;
+}
+.bobble44{
+    position: absolute;
+    left: 400px;
+    top: 700px;
+    animation: moveup 2s infinite;
+}
+.bobble5{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 50px;
+    top: 100px;
+}
+.bobble55{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 65px;
+    top: 2000px;
+}
+/* left side bobbles end*/
+
+
+/* right side bobbles start*/
+.bobble6{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 1350px;
+    top: 100px;
+}
+.bobble66{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 1350px;
+    top: 1256px;
+}
+.bobble7{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 1220px;
+    top: 1700px;
+}
+.bobble77{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 1350px;
+    top: 2000px;
+}
+.bobble8{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 1300px;
+    top: 1400px;
+}
+.bobble88{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 1300px;
+    top: 750px;
+}
+.bobble9{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 1250px;
+    top: 200px;
+}
+.bobble99{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 1100px;
+    top: 400px;
+}
+.bobble10{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 1270px;
+    top: 600px;
+}
+.bobble1010{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 1250px;
+    top: 900px;
+}
+.bobble0{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 700px;
+    top: 1900px;
+}
+/* right side bobbles end   */
+
+
+
+@keyframes moveup{
+    0% {
+      transform: translateY(0%);
+    }
+  
+    50% {
+      transform: translateY(50%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+
+@keyframes MoveUpDown{
+    0% {
+      transform: translateY(0%);
+    }
+  
+    50% {
+      transform: translateY(20%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+
+.pickle1{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 30px;
+    top: 150px;
+    animation: MoveUpDown 4s infinite;
+    z-index: 1;
+}
+.pickle2{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 20px;
+    top: 700px;
+    animation: MoveUpDown 5s infinite;
+    z-index: 1;
+}
+.pickle3{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 20px;
+    top: 1200px;
+    animation: MoveUpDown 6s infinite;
+    z-index: 1;
+}
+.pickle4{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 100px;
+    top: 1800px;
+    animation: MoveUpDown 4s infinite;
+    z-index: -1;
+    display: flex;
+    transform: rotate(180);
+}
+.pickle5{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 1150px;
+    top: 250px;
+    animation: MoveUpDown 5s infinite;
+    z-index: -1;
+    display: flex;
+    transform: rotate(180);
+}
+.pickle6{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 1100px;
+    top: 900px;
+    animation: MoveUpDown 4s infinite;
+    z-index: 1;
+}
+.pickle8{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1200px;
+    top: 1500px;
+    animation: MoveUpDown 4s infinite;
+    z-index: 1;
+}
+.pickle9{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1050px;
+    top: 1900px;
+    animation: MoveUpDown 5s infinite;
+    z-index: 1;
+}
+/* booble and piclkes end*/

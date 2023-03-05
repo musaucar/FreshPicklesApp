@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=PT+Serif:wght@400;700&family=Pacifico&family=Poppins:wght@200&family=Radio+Canada:wght@300;500&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200&family=PT+Serif:wght@400;700&family=Pacifico&family=Poppins:wght@200&family=Radio+Canada:wght@300;500&family=Roboto:wght@300&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-family: "Kanit", "sans-serif";
+    justify-content: center;
+}
+
+body{
+    place-items: center;
+}
+
+
+.containerContent, .containerComment{
+    display: flex;
+    width: 80%;
+    min-height: 100vw;
+    border: 3px solid #555;
+    position: relative;
+    flex-direction: row;
+    border-radius: 10px;
+    margin:auto;
+    -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+    box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+    margin-bottom: 3em;
+}
+
+.col-8{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.bannerImg{
+    margin-top: 35px;
+    margin-left: 45px;
+    height: 26em;
+    width: 13em;
+    display: flex;
+    position:relative;
+    border-radius:16px;
+    overflow:hidden;
+    -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+    box-shadow:  10px 15px 27px #e1e1e3,-15px -15px 27px #ffffff ,15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+}
+
+.bannerImg img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+    height: 100%;
+}
+
+
+.container-lg{
+    display: flex;
+    align-items: flex-start;
+}
+
+.picklePoint{
+    display: flex;
+    position:relative;
+    margin-left: 7em;
+    padding: 15px 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #555;
+    transition: 0.4s all ease;
+}
+
+.picklePoint:hover{
+    transform: scale(1.1);
+}
+
+.ppl{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.ppl h6{
+    font-family: 'Pacifico',cursive;
+}
+
+
+.picklePoint img{
+    display: flex;
+    height: 70px;
+    width: 70px;
+
+}
+
+.picklePoint h1{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.favorite{
+    margin-top: 30px;
+    margin-left: 390px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    position: relative;
+    background-color: aliceblue;
+    border-radius: 5px;
+    justify-content: center;
+    overflow: hidden;
+    transition: 0.1s all ease;
+    text-decoration: none;
+}
+
+.favBtn i{
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    transition: 0.1s all ease;
+    text-decoration: none;
+    align-items: center;
+}
+
+.favBtn{
+    display: flex;
+    background-color: transparent;
+    border: none;
+    width: inherit;
+    height: inherit;
+}
+
+
+.favorite h6{
+    margin-top: 6px;
+    margin-right: 3px;
+    display: flex;
+    text-decoration: none;
+}
+.contentName{
+    padding-left: 20px;
+    margin-left: 20px;
+    display: flex;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    position: relative;
+}
+
+.checked{
+    color: orange;
+}
+.favorite:hover i{
+    color:	#FFDB58;
+    text-decoration: none;
+}
+
+
+.watchLineCont{
+    display: flex;
+    position: relative;
+    height: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.watchLineCont h6{
+    position: relative;
+    color: gray;
+    padding-right: 0;
+}
+
+.wLineFirst{
+    display: flex;
+    position: relative;
+    width: 30px;
+    margin-left: 20px;
+    height: 5px;
+    background-color: gray;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    margin-right: 20px;
+    justify-content: flex-start;
+}
+
+
+.ticketIcon{
+    border: 2px solid #555;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.wtwCont{
+    margin-left: 20px;
+}
+
+.platform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5px 0 5px;
+}
+
+
+.ticketIcon img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.wLineSec{
+    margin-left: 25px;
+    display: flex;
+    position: relative;
+    width: 250px;
+    height: 5px;
+    background-color: gray;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    margin-right: 20px;
+    justify-content: flex-start;
+}
+
+
+.container-rating{
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    width: 490px;
+    height: 12.5em;
+    box-shadow: 1px 1px 7px black;
+    padding: 10px;
+}
+
+.container-rating textarea{
+    width: 29.4em;
+    background-color: #F8F9F9;
+    position: relative;
+    resize: none;
+    overflow: auto;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    border: none;
+}
+
+
+.voteAndStars{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+/* rating star start */
+
+.starCont{
+    margin-top: 5px;
+    margin-left: 10px;
+    /* position: relative;
+    width: 300px;
+    height: 10px;
+    align-items: flex-start;
+    overflow: visible; */
+} 
+.rate {
+    display: inline;
+    border: 0;
+    color: rgb(223, 223, 223);
+}
+/* Hide radio */
+.rate > input {
+    display: none;
+}
+/* Order correctly by floating highest to the right */
+.rate > label {
+    float: right;
+}
+/* The star of the show */
+.rate > label:before {
+    
+    display: block;
+    font-size: 1rem;
+    padding: .3rem .2rem;
+    margin: 0;
+    cursor: pointer;
+    font-family: FontAwesome;
+    content: "\f005 "; /* full star */
+}
+
+/* Half star trick */
+.rate .half:before {
+    content: "\f089 "; /* half star no outline */
+    position: absolute;
+    padding-right: 0;
+}
+/* Click + hover color */
+input:checked ~ label, /* color current and previous stars on checked */
+label:hover, label:hover ~ label { color: orange;  } /* color previous stars on hover */
+
+/* Hover highlights */
+input:checked + label:hover, input:checked ~ label:hover, /* highlight current and previous stars */
+input:checked ~ label:hover ~ label, /* highlight previous selected stars for new rating */
+label:hover ~ input:checked ~ label /* highlight previous selected stars */ { color: orange;  } 
+
+/* rating star end */
+
+.contentInfo{
+    margin: auto;
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content-meta li{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.content-meta{
+    display: inline-block;
+    list-style-type: none;
+}
+.meta-label{
+    color: #7D7A84;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    width: 100px;
+    margin-right: 2vh;
+}
+
+.cast-container{
+    display: flex;
+    margin: auto;
+}
+
+.cast{
+    margin: auto;
+    margin-right: 20px;
+    display: inline-block;
+    height: 150px;
+}
+
+.characters{
+    font-size: 12px;
+    color: #959595;
+    width: inherit;
+    height: inherit;
+    font-family: 'kanit' sans-serif;
+    font-weight: 200;
+}
+.cast h6{
+    width:inherit;
+    margin-bottom: 2px;
+}
+
+.cast1 , .cast2 , .cast3 , .cast4{
+    width: 7.5em;
+}
+
+/* comment area start */
+
+.comment1{
+    width: 50em;
+    height: 5em;
+    background-color: blue;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 5px;
+    
+}
+
+/* comment area end */
+
+

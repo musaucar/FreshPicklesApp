@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    font-family: "Kanit", "sans-serif";
+    justify-content: center;
+}
+
+
+
+.container-lg{
+   display: block;
+}
+
+
+.container-page{
+    background-color: #F6F6F6;
+    display: flex;
+    width: 85%;
+    min-height: 100vw;
+    border: none;
+    position: relative;
+    flex-direction: row;
+    border-radius: 10px;
+    margin:auto;
+    border: 2px solid #555;
+    justify-content: center;
+    -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+    box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+    margin-bottom: 3em;
+}
+
+
+.category-section{
+    margin: auto;
+    margin: 0 0px 2em 3.8em;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.catBtn{
+    width: 20em;
+    border: 2px solid #555;
+    outline: none;
+    margin: 0 1.5em 0 1.5em;
+    transition: .2s all ease;
+    transform: skew(-10deg);
+}
+
+.catItem{
+    width: 20em;
+}
+
+
+.catBtn:hover{
+    background-color: #808080;
+    color: white;
+
+}
+
+@media(max-width: 767px){
+    .category-section, .catBtn, .catItem{
+        width: 20em;
+        margin: 0 0px 2em 3.5em;
+    }
+}
+@media(max-width: 574px){
+    .category-section, .catBtn, .catItem{
+        width: 20em;
+        margin: 0 0px 2em 5px;
+    }
+}
+
+
+#movieLine{
+    display: flex;
+    position: relative;
+    height: 15px;
+    align-items: center;
+    justify-content: center;
+    margin: 17px 0 0 10px;
+}
+
+.movieLineFirst{
+    display: flex;
+    position: relative;
+    width: 110px;
+    height: 35px;
+    background-color: gray;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    margin-right: 20px;
+    justify-content: flex-start;
+    border: none;
+    transform: skew(-10deg);
+
+}
+
+.movieLineSec{
+    margin-left: 25px;
+    display: flex;
+    position: relative;
+    width: 350px;
+    height: 35px;
+    background-color: gray;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    margin-right: 20px;
+    justify-content: flex-start;
+    border: none;
+    transform: skew(-10deg);
+}
+
+@media(max-width: 767px){
+    #movieLine, .movieLineFirst, .movieLineSec,.movieLine>h6{
+        width: 0;
+        height: 0;
+        content: "";
+    }
+}
+@media(max-width: 574px){
+    #movieLine, .movieLineFirst, .movieLineSec,.movieLine>h6{
+        content: "";
+        width: 0;
+        height: 0;
+    }
+}
+
+/* pagination start */
+
+.page-item{
+    margin: 0 5px 0 5px;
+    
+}   
+
+.page-link{
+    border-radius: 8px;
+    color: #808080;
+}
+.page-link>span{
+    border-radius: 50%;
+}
+
+
+.page-link:hover{
+    background-color: #808080;
+    color: white;
+}
+/* pagination end */

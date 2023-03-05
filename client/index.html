@@ -1,0 +1,836 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Fresh Pickles</title>
+    <link rel="icon" href="./photo/pickle.png" type="image/gif">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=PT+Serif:wght@400;700&family=Poppins:wght@200&family=Radio+Canada:wght@300;500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- navbar start -->
+    <div class="container-md mt-3">
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="logo">
+          <a  href=""><img class="logoPickle" src="./photo/pickle.png" alt=""></a>
+          <a class="navbar-brand" href="#">Fresh Pickles</a>
+        </div>
+        
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+              
+            <!-- search bar start -->
+            <div class="searchContainer mt-1 mr-4">
+              <form action="#" class="form-inline">
+                <input type="text" class="searchInp" placeholder="What are you looking for?">
+                <button class="searchBtn" type="submit"><i class="fa fa-search"></i></button>
+              </form>
+            </div>
+            
+            <!-- search bar end -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Explore</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#top10Line">Top 10</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Series</a>
+            </li>
+            <li class="nav-item singInBtn">
+              <a class="nav-link" href="#">Log In</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link btn btn-dark text-light ml-3 px-3" href="./signIn/signInPage.html">Sign In</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- navbar end -->
+
+
+
+    <div class="bottle">
+      <div class="ContBobblePickle">
+        <img class="pickle1" src="./photo/pickle.png" alt="">
+        <img class="pickle2" src="./photo/pickleReverse.png" alt="">
+        <img class="pickle3" src="./photo/pickle.png" alt="">
+        <img class="pickle4" src="./photo/pickleReverse.png" alt="">
+        <img class="pickle5" src="./photo/pickleReverse.png" alt=""> 
+        <img class="pickle6" src="./photo/pickle.png" alt="">
+        <img class="pickle8" src="./photo/pickle.png" alt="">
+        <img class="pickle9" src="./photo/pickle.png" alt="">
+
+        <div class="bobble bobble1"></div>
+        <div class="bobble bobble11"></div>
+        <div class="bobble bobble112"></div>
+        <div class="bobble bobble2"></div>
+        <div class="bobble bobble22"></div>
+        <div class="bobble bobble3"></div>
+        <div class="bobble bobble33"></div>
+        <div class="bobble bobble4"></div>
+        <div class="bobble bobble44"></div>
+        <div class="bobble bobble5"></div>
+        <div class="bobble bobble55"></div>
+        <div class="bobble bobble6"></div>
+        <div class="bobble bobble66"></div>
+        <div class="bobble bobble7"></div>
+        <div class="bobble bobble77"></div>
+        <div class="bobble bobble8"></div>
+        <div class="bobble bobble88"></div>
+        <div class="bobble bobble9"></div>
+        <div class="bobble bobble99"></div>
+        <div class="bobble bobble10"></div>
+        <div class="bobble bobble1010"></div>
+        <div class="bobble bobble0"></div>
+        <div class="bobble bobble01"></div>
+        <div class="bobble bobble011"></div>
+        <div class="bobble bobble011"></div>
+        <div class="bobble bobble011"></div>
+        <div class="bobble bobble011"></div>
+        <div class="bobble bobble011"></div>
+        <div class="bobble bobble011"></div>
+        <div class="bobble bobble011"></div>
+        <div class="bobble bobble011"></div>
+        <div class="bobble bobble011"></div>
+        <div class="bobble bobble011"></div>
+        <div class="bobble bobble011"></div>
+        <div class="bobble bobble011"></div>
+        <div class="bobble bobble011"></div>
+        <div class="bobble bobble011"></div>
+        <div class="bobble bobble011"></div>
+      </div>
+    </div>
+
+
+
+    <!-- carousel start -->
+    <div class="contCarosuel mt-3 container-md">
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active ">
+            <img class="carImg" src="https://images3.alphacoders.com/124/1241167.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="carImg" src="https://movies.universalpictures.com/media/mrg-dm-mobile-banner-1080x745-pl-f01-033022-6244ab3d936de-1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="carImg" src="https://wallpapercave.com/wp/wp11239016.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="carImg" src="https://images.hdqwalls.com/wallpapers/top-gun-maverick-2020-f4.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Fourth slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="carImg" src="https://images.hdqwalls.com/wallpapers/the-mandalorian-4k-yg.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Fifth slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+    </div>
+     <!-- carousel end -->
+
+
+    <!-- 1 line start -->
+    <div class="lineCont">
+      <div class="lineFirst"></div>
+      <h6>New & Upcoming</h6>
+      <div class="lineSec"></div>
+    </div>
+    
+    <!-- 1 line end -->
+
+
+     <!-- newUp cards - start -->
+     <div class="mt-3 cardCont card">
+      <div class="center">
+        <div class="property-card">
+          <a href="#">
+            <div class="property-image">
+              <img src="https://dx35vtwkllhj9.cloudfront.net/paramountpictures/top-gun/images/regions/us/onesheet.jpg" alt="...">
+            </div></a>
+            <a href="#">
+              <div class="property-description">
+                <h5>Top Gun: Maverick</h5> </br>
+                <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+              </div>
+            </a>
+          <a href="#">
+            <div class="PP">
+            </div>
+            <div class="property-social-icons">
+              <img src="./photo/pickle.png" alt="">
+              <h6>86%</h6>
+            </div>
+          </a>
+        </div>
+      </div>
+      
+
+
+      <div class="center">
+        <div class="property-card">
+          <a href="#">
+            <div class="property-image">
+              <img src="https://dx35vtwkllhj9.cloudfront.net/paramountpictures/top-gun/images/regions/us/onesheet.jpg" alt="...">
+            </div></a>
+            <a href="#">
+              <div class="property-description">
+                <h5>Top Gun: Maverick</h5> </br>
+                <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+              </div>
+            </a>
+          <a href="#">
+            <div class="PP">
+            </div>
+            <div class="property-social-icons">
+              <img src="./photo/pickle.png" alt="">
+              <h6>86%</h6>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+
+
+
+
+      <div class="center">
+        <div class="property-card">
+          <a href="#">
+            <div class="property-image">
+              <img src="https://dx35vtwkllhj9.cloudfront.net/paramountpictures/top-gun/images/regions/us/onesheet.jpg" alt="...">
+            </div></a>
+            <a href="#">
+              <div class="property-description">
+                <h5>Top Gun: Maverick</h5> </br>
+                <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+              </div>
+            </a>
+          <a href="#">
+            <div class="PP">
+            </div>
+            <div class="property-social-icons">
+              <img src="./photo/pickle.png" alt="">
+              <h6>86%</h6>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+
+      <div class="center">
+        <div class="property-card">
+          <a href="#">
+            <div class="property-image">
+              <img src="https://pbs.twimg.com/media/FLFVFeIVQAYE5LD?format=jpg&name=medium" alt="...">
+            </div></a>
+            <a href="#">
+              <div class="property-description">
+                <h5> Lightyear </h5>
+                <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+              </div>
+            </a>
+          <a href="#">
+            <div class="PP">
+            </div>
+            <div class="property-social-icons">
+              <img src="./photo/pickle.png" alt="">
+              <h6>82%</h6>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+
+      <div class="center">
+        <div class="property-card">
+          <a href="#">
+            <div class="property-image">
+              <img src="https://filmdelisi.co/wp-content/uploads/2022/04/MV5BYjZkNzM0MDItZGQ0Zi00N2MzLTlhM2MtNjJlMTczZDBkNWUxXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_-647x1024.jpg" alt="...">
+            </div></a>
+            <a href="#">
+              <div class="property-description">
+                <h5> Minions: The Rise of Gru </h5>
+                <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+              </div>
+            </a>
+          <a href="#">
+            <div class="PP">
+            </div>
+            <div class="property-social-icons">
+              <img src="./photo/pickle.png" alt="">
+              <h6>76%</h6>
+            </div>
+          </a>
+        </div>
+      </div>
+
+       
+
+
+      <div class="center">
+        <div class="property-card">
+          <a href="#">
+            <div class="property-image">
+              <img src="https://donanimarsivi.com/wp-content/uploads/2022/04/FQoQrkzVcAQliEM.jpg" alt="...">
+            </div></a>
+            <a href="#">
+              <div class="property-description">
+                <h5> Thor: love and Thunder </h5>
+                <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+              </div>
+            </a>
+          <a href="#">
+            <div class="PP">
+            </div>
+            <div class="property-social-icons">
+              <img src="./photo/pickle.png" alt="">
+              <h6>70%</h6>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+
+
+     </div>
+  <!-- cards - end -->
+
+
+  <!-- line start -->
+  <div class="lineCont">
+    <div class="lineFirst"></div>
+    <h6>POPULAR IN THEATERS</h6>
+    <div class="lineSec"></div>
+  </div>
+  
+  <!-- line end -->
+
+
+  <!-- popInTheaters cards - start -->
+  <div class="mt-3 cardCont card">
+    <div class="center">
+      <div class="property-card">
+        <a href="#">
+          <div class="property-image">
+            <img src="https://dx35vtwkllhj9.cloudfront.net/paramountpictures/top-gun/images/regions/us/onesheet.jpg" alt="...">
+          </div></a>
+          <a href="#">
+            <div class="property-description">
+              <h5>Top Gun: Maverick</h5> </br>
+              <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+            </div>
+          </a>
+        <a href="#">
+          <div class="PP">
+          </div>
+          <div class="property-social-icons">
+            <img src="./photo/pickle.png" alt="">
+            <h6>86%</h6>
+          </div>
+        </a>
+      </div>
+    </div>
+    
+
+
+    <div class="center">
+      <div class="property-card">
+        <a href="#">
+          <div class="property-image">
+            <img src="https://dx35vtwkllhj9.cloudfront.net/paramountpictures/top-gun/images/regions/us/onesheet.jpg" alt="...">
+          </div></a>
+          <a href="#">
+            <div class="property-description">
+              <h5>Top Gun: Maverick</h5> </br>
+              <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+            </div>
+          </a>
+        <a href="#">
+          <div class="PP">
+          </div>
+          <div class="property-social-icons">
+            <img src="./photo/pickle.png" alt="">
+            <h6>86%</h6>
+          </div>
+        </a>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="center">
+      <div class="property-card">
+        <a href="#">
+          <div class="property-image">
+            <img src="https://dx35vtwkllhj9.cloudfront.net/paramountpictures/top-gun/images/regions/us/onesheet.jpg" alt="...">
+          </div></a>
+          <a href="#">
+            <div class="property-description">
+              <h5>Top Gun: Maverick</h5> </br>
+              <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+            </div>
+          </a>
+        <a href="#">
+          <div class="PP">
+          </div>
+          <div class="property-social-icons">
+            <img src="./photo/pickle.png" alt="">
+            <h6>86%</h6>
+          </div>
+        </a>
+      </div>
+    </div>
+
+
+
+    <div class="center">
+      <div class="property-card">
+        <a href="#">
+          <div class="property-image">
+            <img src="https://pbs.twimg.com/media/FLFVFeIVQAYE5LD?format=jpg&name=medium" alt="...">
+          </div></a>
+          <a href="#">
+            <div class="property-description">
+              <h5> Lightyear </h5>
+              <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+            </div>
+          </a>
+        <a href="#">
+          <div class="PP">
+          </div>
+          <div class="property-social-icons">
+            <img src="./photo/pickle.png" alt="">
+            <h6>82%</h6>
+          </div>
+        </a>
+      </div>
+    </div>
+
+
+
+    <div class="center">
+      <div class="property-card">
+        <a href="#">
+          <div class="property-image">
+            <img src="https://filmdelisi.co/wp-content/uploads/2022/04/MV5BYjZkNzM0MDItZGQ0Zi00N2MzLTlhM2MtNjJlMTczZDBkNWUxXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_-647x1024.jpg" alt="...">
+          </div></a>
+          <a href="#">
+            <div class="property-description">
+              <h5> Minions: The Rise of Gru </h5>
+              <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+            </div>
+          </a>
+        <a href="#">
+          <div class="PP">
+          </div>
+          <div class="property-social-icons">
+            <img src="./photo/pickle.png" alt="">
+            <h6>76%</h6>
+          </div>
+        </a>
+      </div>
+    </div>
+
+     
+
+
+    <div class="center">
+      <div class="property-card">
+        <a href="#">
+          <div class="property-image">
+            <img src="https://donanimarsivi.com/wp-content/uploads/2022/04/FQoQrkzVcAQliEM.jpg" alt="...">
+          </div></a>
+          <a href="#">
+            <div class="property-description">
+              <h5> Thor: love and Thunder </h5>
+              <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+            </div>
+          </a>
+        <a href="#">
+          <div class="PP">
+          </div>
+          <div class="property-social-icons">
+            <img src="./photo/pickle.png" alt="">
+            <h6>70%</h6>
+          </div>
+        </a>
+      </div>
+    </div>
+
+
+
+
+   </div>
+<!--popInTheaters cards - end -->
+
+    <!-- top 10 section start -->
+
+    <!-- top 10 line start -->
+   <div class="smallontainer">
+    <div id="top10Line">
+      <div class="top10LineFirst"></div>
+      <h6 style="font-size: 30px; color: gray; font-style: italic;">TOP 10 ON PICKLES</h6>
+      <div class="top10LineSec"></div>
+    </div>
+    <!-- top 10 line end -->
+
+    <!-- top 10 cards start -->
+    
+    <div class="mt-5 smallCardCont card">
+      <div class="smallCenter">
+        <div class="smallProperty-card">
+        <a href="#">
+          <div class="smallProperty-image">
+            <img src="https://filmdelisi.co/wp-content/uploads/2022/04/MV5BYjZkNzM0MDItZGQ0Zi00N2MzLTlhM2MtNjJlMTczZDBkNWUxXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_-647x1024.jpg" alt="...">
+          </div></a>
+          <a href="#">
+            <div class="smallProperty-description">
+              <h5> Minions: The Rise of Gru </h5>
+              <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+            </div>
+          </a>
+        <a href="#">
+          <div class="smallPP">
+          </div>
+          <div class="smallProperty-social-icons">
+            <img src="./photo/pickle.png" alt="">
+            <h6>76%</h6>
+          </div>
+        </a>
+      </div>
+    </div>
+
+
+    <div class="smallCenter">
+      <div class="smallProperty-card">
+      <a href="#">
+        <div class="smallProperty-image">
+          <img src="https://filmdelisi.co/wp-content/uploads/2022/04/MV5BYjZkNzM0MDItZGQ0Zi00N2MzLTlhM2MtNjJlMTczZDBkNWUxXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_-647x1024.jpg" alt="...">
+        </div></a>
+        <a href="#">
+          <div class="smallProperty-description">
+            <h5> Minions: The Rise of Gru </h5>
+            <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+          </div>
+        </a>
+      <a href="#">
+        <div class="smallPP">
+        </div>
+        <div class="smallProperty-social-icons">
+          <img src="./photo/pickle.png" alt="">
+          <h6>76%</h6>
+        </div>
+      </a>
+    </div>
+  </div>
+
+
+
+  <div class="smallCenter">
+    <div class="smallProperty-card">
+    <a href="#">
+      <div class="smallProperty-image">
+        <img src="https://filmdelisi.co/wp-content/uploads/2022/04/MV5BYjZkNzM0MDItZGQ0Zi00N2MzLTlhM2MtNjJlMTczZDBkNWUxXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_-647x1024.jpg" alt="...">
+      </div></a>
+      <a href="#">
+        <div class="smallProperty-description">
+          <h5> Minions: The Rise of Gru </h5>
+          <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+        </div>
+      </a>
+    <a href="#">
+      <div class="smallPP">
+      </div>
+      <div class="smallProperty-social-icons">
+        <img src="./photo/pickle.png" alt="">
+        <h6>76%</h6>
+      </div>
+    </a>
+  </div>
+</div>
+
+
+<div class="smallCenter">
+  <div class="smallProperty-card">
+  <a href="#">
+    <div class="smallProperty-image">
+      <img src="https://filmdelisi.co/wp-content/uploads/2022/04/MV5BYjZkNzM0MDItZGQ0Zi00N2MzLTlhM2MtNjJlMTczZDBkNWUxXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_-647x1024.jpg" alt="...">
+    </div></a>
+    <a href="#">
+      <div class="smallProperty-description">
+        <h5> Minions: The Rise of Gru </h5>
+        <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+      </div>
+    </a>
+  <a href="#">
+    <div class="smallPP">
+    </div>
+    <div class="smallProperty-social-icons">
+      <img src="./photo/pickle.png" alt="">
+      <h6>76%</h6>
+    </div>
+  </a>
+</div>
+</div>
+
+
+
+<div class="smallCenter">
+  <div class="smallProperty-card">
+  <a href="#">
+    <div class="smallProperty-image">
+      <img src="https://filmdelisi.co/wp-content/uploads/2022/04/MV5BYjZkNzM0MDItZGQ0Zi00N2MzLTlhM2MtNjJlMTczZDBkNWUxXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_-647x1024.jpg" alt="...">
+    </div></a>
+    <a href="#">
+      <div class="smallProperty-description">
+        <h5> Minions: The Rise of Gru </h5>
+        <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+      </div>
+    </a>
+  <a href="#">
+    <div class="smallPP">
+    </div>
+    <div class="smallProperty-social-icons">
+      <img src="./photo/pickle.png" alt="">
+      <h6>76%</h6>
+    </div>
+  </a>
+</div>
+</div>
+
+
+
+    <div class="smallCenter">
+      <div class="smallProperty-card">
+        <a href="#">
+          <div class="smallProperty-image">
+            <img src="https://filmdelisi.co/wp-content/uploads/2022/04/MV5BYjZkNzM0MDItZGQ0Zi00N2MzLTlhM2MtNjJlMTczZDBkNWUxXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_-647x1024.jpg" alt="...">
+          </div></a>
+          <a href="#">
+            <div class="smallProperty-description">
+              <h5> Minions: The Rise of Gru </h5>
+              <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+            </div>
+          </a>
+        <a href="#">
+          <div class="smallPP">
+          </div>
+          <div class="smallProperty-social-icons">
+            <img src="./photo/pickle.png" alt="">
+            <h6>76%</h6>
+          </div>
+        </a>
+      </div>
+    </div>
+
+
+
+    <div class="smallCenter">
+      <div class="smallProperty-card">
+        <a href="#">
+          <div class="smallProperty-image">
+            <img src="https://filmdelisi.co/wp-content/uploads/2022/04/MV5BYjZkNzM0MDItZGQ0Zi00N2MzLTlhM2MtNjJlMTczZDBkNWUxXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_-647x1024.jpg" alt="...">
+          </div></a>
+          <a href="#">
+            <div class="smallProperty-description">
+              <h5> Minions: The Rise of Gru </h5>
+              <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+            </div>
+          </a>
+        <a href="#">
+          <div class="smallPP">
+          </div>
+          <div class="smallProperty-social-icons">
+            <img src="./photo/pickle.png" alt="">
+            <h6>76%</h6>
+          </div>
+        </a>
+      </div>
+    </div>
+
+
+
+    <div class="smallCenter">
+      <div class="smallProperty-card">
+        <a href="#">
+          <div class="smallProperty-image">
+            <img src="https://filmdelisi.co/wp-content/uploads/2022/04/MV5BYjZkNzM0MDItZGQ0Zi00N2MzLTlhM2MtNjJlMTczZDBkNWUxXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_-647x1024.jpg" alt="...">
+          </div></a>
+          <a href="#">
+            <div class="smallProperty-description">
+              <h5> Minions: The Rise of Gru </h5>
+              <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+            </div>
+          </a>
+        <a href="#">
+          <div class="smallPP">
+          </div>
+          <div class="smallProperty-social-icons">
+            <img src="./photo/pickle.png" alt="">
+            <h6>76%</h6>
+          </div>
+        </a>
+      </div>
+    </div>
+
+
+
+    <div class="smallCenter">
+      <div class="smallProperty-card">
+        <a href="#">
+          <div class="smallProperty-image">
+            <img src="https://filmdelisi.co/wp-content/uploads/2022/04/MV5BYjZkNzM0MDItZGQ0Zi00N2MzLTlhM2MtNjJlMTczZDBkNWUxXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_-647x1024.jpg" alt="...">
+          </div></a>
+          <a href="#">
+            <div class="smallProperty-description">
+              <h5> Minions: The Rise of Gru </h5>
+              <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+            </div>
+          </a>
+        <a href="#">
+          <div class="smallPP">
+          </div>
+          <div class="smallProperty-social-icons">
+            <img src="./photo/pickle.png" alt="">
+            <h6>76%</h6>
+          </div>
+        </a>
+      </div>
+    </div>
+
+
+
+
+    <div class="smallCenter">
+      <div class="smallProperty-card">
+        <a href="#">
+          <div class="smallProperty-image">
+            <img src="https://filmdelisi.co/wp-content/uploads/2022/04/MV5BYjZkNzM0MDItZGQ0Zi00N2MzLTlhM2MtNjJlMTczZDBkNWUxXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_-647x1024.jpg" alt="...">
+          </div></a>
+          <a href="#">
+            <div class="smallProperty-description">
+              <h5> Minions: The Rise of Gru </h5>
+              <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+            </div>
+          </a>
+        <a href="#">
+          <div class="smallPP">
+          </div>
+          <div class="smallProperty-social-icons">
+            <img src="./photo/pickle.png" alt="">
+            <h6>76%</h6>
+          </div>
+        </a>
+      </div>
+    </div>
+
+
+    </div>
+
+
+    
+    <!-- top 10 cards end -->
+
+   </div>
+
+    
+
+
+    <!-- top 10 section end -->
+
+   
+    
+
+    <!-- Footer Start -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h6>Copyright Ⓒ 2022, FreshPickles. All rights reserved</h6>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="style.css"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!-- 
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+

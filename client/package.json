@@ -1,0 +1,22 @@
+{
+  "name": "freshpickles",
+  "version": "1.0.0",
+  "description": "movie-and-series-rating-site",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/musaucar/FreshPickles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/musaucar/FreshPickles/issues"
+  },
+  "homepage": "https://github.com/musaucar/FreshPickles#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

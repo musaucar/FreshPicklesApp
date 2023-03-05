@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=PT+Serif:wght@400;700&family=Pacifico&family=Poppins:wght@200&family=Radio+Canada:wght@300;500&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200&family=PT+Serif:wght@400;700&family=Pacifico&family=Poppins:wght@200&family=Radio+Canada:wght@300;500&family=Roboto:wght@300&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-family: "Kanit", "sans-serif";
+    justify-content: center;
+}
+
+body{
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    gap: 30px;
+}
+
+.sign-in-section{
+    border-radius: 10px;      
+    position: relative;
+    width: 30em;
+    height: 24.1em;
+    margin: auto;
+    top: 6em;
+    background-color: white;
+    padding: 1em 1em 1em 1em ;
+    border: 2px solid #555;
+}
+
+.SignInContainer{
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: 35em;
+    top: -50px;
+}
+
+.styleSignIn{
+    position: relative;
+    width: inherit;
+    height: 41.3em;
+    margin: auto;
+    margin-left: 0;
+    background-color: #8DDFFF;
+    animation: animate 4s ease-in-out infinite;
+}
+
+.bobble{
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.5;
+}
+.bobble1{
+    position: absolute;
+    left: 580px;
+    top: 480px;
+    animation: moveup 2s infinite;
+}
+.bobble2{
+    position: absolute;
+    left: 80px;
+    top: 400px;
+    animation: moveup 2s infinite;
+}
+.bobble3{
+    position: absolute;
+    left: 350px;
+    top: 450px;
+    animation: moveup 2s infinite;
+}
+.bobble4{
+    position: absolute;
+    left: 400px;
+    top: 200px;
+    animation: moveup 2s infinite;
+}
+.bobble5{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 1000px;
+    top: 100px;
+}
+.bobble6{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 880px;
+    top: 520px;
+}
+.bobble7{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 60px;
+    top: 100px;
+}
+.bobble8{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 1300px;
+    top: 220px;
+}
+.bobble9{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 1100px;
+    top: 400px;
+}
+.bobble10{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 1270px;
+    top: 500px;
+}
+.bobble10{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 460px;
+    top: 550px;
+}
+
+
+@keyframes moveup{
+    0% {
+      transform: translateY(0%);
+    }
+  
+    50% {
+      transform: translateY(50%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+
+@keyframes MoveUpDown{
+    0% {
+      transform: translateY(0%);
+    }
+  
+    50% {
+      transform: translateY(20%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+
+.pickle1{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 150px;
+    top: 150px;
+    animation: MoveUpDown 5s infinite;
+}
+.pickle2{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 1100px;
+    top: 230px;
+    animation: MoveUpDown 6s infinite;
+    z-index: 1;
+}
+.pickle3{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 620px;
+    top: 450px;
+    animation: MoveUpDown 4s infinite;
+    z-index: -1;
+    display: flex;
+    transform: rotate(180);
+}
+
+.SubmitBtn{
+    min-width: 100%;
+    border: 2px solid #808080;
+    color: white;
+    background-color: #555;
+}
+
+.SubmitBtn:hover{
+    color: white;
+    background-color: rgb(56, 56, 56);
+}
+
+@media(max-width: 767px){
+    .sign-in-section{
+        width: 20em;
+    }
+    .SubmitBtn{
+        width: 18.5em;
+    }
+}
+@media(max-width: 574px){
+    .sign-in-section{
+        width: 15em;
+        height: 21em;
+    }
+    .SubmitBtn{
+        width: 13em;
+    }
+}
+
+@media(max-width: 767px){
+    .pickle1, .pickle2, .pickle3{
+        display: none;
+    }
+}
+@media(max-width: 574px){
+    .pickle1, .pickle2, .pickle3{
+        display: none;
+    }
+}
+
+.inputBox{
+    display: flex;
+    display: flex;
+    outline: none;
+}
+
+
+.inputBox input{ 
+    min-width: 100%;
+    padding: 10px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+.inputBox label{
+    position: absolute;
+    display: flex;
+    left: 1em;
+    padding: 0px;
+    margin-bottom: 10px;
+    margin-top: 0.5em;
+    padding-left: 13px;
+    pointer-events: none;
+    font-size: 1em;
+    z-index: 1;
+    transition: 0.2s;
+    text-transform: uppercase;
+    color: #808080;
+}
+
+.inputBox input:valid ~ label, 
+.inputBox input:focus ~ label{
+    color: #555;
+    transform: translateX(20px) translateY(-15px);
+    font-size: 0.65em;
+    padding: 0 10px;
+    background: white;
+    padding-left: 2px;
+    padding-right: 2px;
+    letter-spacing: 0.2em;
+}
+
+@keyframes animate {
+	0%,
+	100% {
+		clip-path: polygon(
+            0% 6%, 0% 100%, 100% 100%, 100% 7%, 88% 11%, 82% 9%, 77% 7%, 66% 6%, 61% 11%, 53% 10%, 44% 6%, 36% 8%, 30% 12%, 21% 7%, 13% 5%       );
+    }
+
+	50% {
+		clip-path: polygon(
+            0% 8%, 0% 100%, 100% 100%, 100% 6%, 93% 10%, 84% 11%, 79% 7%, 71% 6%, 64% 5%, 58% 8%, 54% 10%, 47% 9%, 36% 8%, 27% 5%, 16% 6% );
+	}
+}
+
+
+p{
+    font-size: 12px;
+    opacity: 0.5;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* OLD CODES */
+
+
+/* *{
+    box-sizing: border-box;
+    font-family: "Kanit", "sans-serif";
+    justify-content: center;
+}
+
+body{
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    gap: 30px;
+}
+
+.sign-in-section{
+    border-radius: 10px;
+    position: relative;
+    width: 30em;
+    height: 18em;
+    margin: auto;
+    margin-right: 0%;
+    background-color: white;
+    padding: 1em 1em 1em 1em ;
+    border-right: none;
+    box-shadow: 10px 10px 10px 10px #e1e1e3,-15px -15px 27px #ffffff ;
+}
+
+.SignInContainer{
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    width: 60em;
+    box-shadow: 10px 10px 10px 10px  #e1e1e3,-15px -15px 27px #ffffff ;
+}
+
+.styleSignIn{
+    position: relative;
+    width: 30em;
+    height: 18em;
+    margin: auto;
+    margin-left: 0;
+    background-color: #8DDFFF;
+    border-radius: 10px;
+    animation: animate 4s ease-in-out infinite;
+}
+
+.bobble{
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.5;
+}
+.bobble1{
+    position: absolute;
+    left: 50px;
+    top: 40px;
+    animation: moveup 2s infinite;
+}
+.bobble2{
+    position: absolute;
+    left: 80px;
+    top: 230px;
+    animation: moveup 2s infinite;
+}
+.bobble3{
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    animation: moveup 2s infinite;
+}
+.bobble4{
+    position: absolute;
+    left: 400px;
+    top: 200px;
+    animation: moveup 2s infinite;
+}
+.bobble5{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 420px;
+    top: 40px;
+}
+
+@keyframes moveup{
+    0% {
+      transform: translateY(0%);
+    }
+  
+    50% {
+      transform: translateY(50%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+
+@keyframes MoveUpDown{
+    0% {
+      transform: translateY(0%);
+    }
+  
+    50% {
+      transform: translateY(20%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+
+.styleSignIn > div > img{
+    position: absolute;
+    left: 200px;
+    top: 25px;
+    width: 200px;
+    height: 200px;
+    animation: MoveUpDown 4s infinite;
+}
+
+
+.styleSignIn > h3{
+    font-size: 40px;
+    position: relative;
+    font-family: 'Pacifico', cursive;
+    left: 120px;
+    top: 100px;
+    z-index: 1;
+    color: white;
+}
+
+.SubmitBtn{
+    min-width: 100%;
+    border: 2px solid #808080;
+    color: white;
+    background-color: #555;
+}
+
+.SubmitBtn:hover{
+    color: white;
+    background-color: rgb(56, 56, 56);
+}
+
+@media(max-width: 767px){
+    .sign-in-section{
+        width: 20em;
+    }
+    .SubmitBtn{
+        width: 18.5em;
+    }
+}
+@media(max-width: 574px){
+    .sign-in-section{
+        width: 15em;
+        height: 28.5em;
+    }
+    .SubmitBtn{
+        width: 13.5em;
+    }
+}
+
+.inputBox{
+    position: relative;
+    display: flex;
+    outline: none;
+}
+
+
+.inputBox input{ 
+    min-width: 100%;
+    padding: 10px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+.inputBox label{
+    position: absolute;
+    display: flex;
+    left: 0;
+    padding: 0px;
+    margin-bottom: 10px;
+    margin-top: 0.5em;
+    padding-left: 13px;
+    pointer-events: none;
+    font-size: 1em;
+    z-index: 1;
+    transition: 0.2s;
+    text-transform: uppercase;
+}
+
+.inputBox input:valid ~ label, 
+.inputBox input:focus ~ label{
+    color: #555;
+    transform: translateX(10px) translateY(-15px);
+    font-size: 0.65em;
+    padding: 0 10px;
+    background: white;
+    padding-left: 2px;
+    padding-right: 2px;
+    letter-spacing: 0.2em;
+}
+
+@keyframes animate {
+	0%,
+	100% {
+		clip-path: polygon(
+            0% 9%, 0% 100%, 100% 100%, 100% 10%, 87% 6%, 61% 10%, 27% 6%
+        );
+	}
+
+	50% {
+		clip-path: polygon(
+			0% 10%, 0% 100%, 100% 100%, 100% 9%, 76% 13%, 53% 8%, 24% 14%
+		);
+	}
+}
+ */
+
