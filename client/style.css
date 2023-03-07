@@ -68,7 +68,6 @@ body{
     justify-content: center;
     border-radius: 10px;
     margin-bottom: 50px;
-    box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
 }
 
 
@@ -105,6 +104,7 @@ body{
     justify-content: center;
     margin: auto;
     position: relative;
+    background-color: transparent;
 }
 
 
@@ -131,8 +131,6 @@ body{
     transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     border-radius:16px;
     overflow:hidden;
-    -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
-    box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
 }
 
 .property-image{
@@ -245,7 +243,7 @@ body{
 
 .lineCont h6{
     position: relative;
-    color: gray;
+    color: rgb(245, 241, 241);
 }
 
 .lineFirst{
@@ -253,7 +251,7 @@ body{
     position: relative;
     width: 120px;
     height: 5px;
-    background-color: gray;
+    background-color: rgb(245, 241, 241);
     margin-bottom: 7px;
     border-radius: 5px;
     margin-right: 20px;
@@ -266,7 +264,7 @@ body{
     position: relative;
     width: 800px;
     height: 5px;
-    background-color: gray;
+    background-color: rgb(245, 241, 241);
     margin-bottom: 7px;
     border-radius: 5px;
     margin-right: 20px;
@@ -325,7 +323,7 @@ body{
     position: relative;
     width: 180px;
     height: 35px;
-    background-color: gray;
+    background-color: rgb(245, 241, 241);
     margin-bottom: 7px;
     border-radius: 5px;
     margin-right: 20px;
@@ -340,7 +338,7 @@ body{
     position: relative;
     width: 710px;
     height: 35px;
-    background-color: gray;
+    background-color: rgb(245, 241, 241);
     margin-bottom: 7px;
     border-radius: 5px;
     margin-right: 20px;
@@ -502,6 +500,252 @@ body{
 }
 
 
-
-
 /* top 10 cards end */
+
+
+/* bottle section css start */
+
+.bottle{
+    background-color: #8ddfff;
+    width: 100%;
+    height: 160em;
+    margin-top: 5em;
+    z-index: -1;
+    margin: auto;
+    position: absolute;
+    animation: animate 6s ease-in-out infinite;
+}
+
+.bobble{
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.5;
+}
+
+.bobble1{
+    position: absolute;
+    left: 160px;
+    top: 900px;
+    animation: moveup 2s infinite;
+}
+.bobble11{
+    position: absolute;
+    left: 140px;
+    top: 1500px;
+    animation: moveup 2s infinite;
+}
+.bobble112{
+    position: absolute;
+    left: 140px;
+    top: 1200px;
+    animation: moveup 2s infinite;
+}
+.bobble2{
+    position: absolute;
+    left: 80px;
+    top: 1050px;
+    animation: moveup 2s infinite;
+}
+.bobble22{
+    position: absolute;
+    left: 130px;
+    top: 1700px;
+    animation: moveup 2s infinite;
+}
+.bobble3{
+    position: absolute;
+    left: 150px;
+    top: 450px;
+    animation: moveup 2s infinite;
+}
+.bobble33{
+    position: absolute;
+    left: 110px;
+    top: 600px;
+    animation: moveup 2s infinite;
+}
+.bobble4{
+    position: absolute;
+    left: 120px;
+    top: 200px;
+    animation: moveup 2s infinite;
+}
+.bobble44{
+    position: absolute;
+    left: 400px;
+    top: 700px;
+    animation: moveup 2s infinite;
+}
+.bobble5{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 50px;
+    top: 100px;
+}
+.bobble55{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 65px;
+    top: 2000px;
+}
+
+.bobble6{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 1350px;
+    top: 100px;
+}
+.bobble66{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 1350px;
+    top: 1256px;
+}
+.bobble7{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 1220px;
+    top: 1700px;
+}
+.bobble77{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 1350px;
+    top: 2000px;
+}
+.bobble8{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 1300px;
+    top: 1400px;
+}
+.bobble88{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 1300px;
+    top: 750px;
+}
+.bobble9{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 1250px;
+    top: 200px;
+}
+.bobble99{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 1100px;
+    top: 400px;
+}
+.bobble10{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 1270px;
+    top: 600px;
+}
+.bobble1010{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 1250px;
+    top: 900px;
+}
+.bobble0{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 700px;
+    top: 1900px;
+}
+
+.pickle1{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 30px;
+    top: 150px;
+    animation: MoveUpDown 4s infinite;
+    z-index: 1;
+}
+.pickle2{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 20px;
+    top: 700px;
+    animation: MoveUpDown 5s infinite;
+    z-index: 1;
+}
+.pickle3{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 20px;
+    top: 1200px;
+    animation: MoveUpDown 6s infinite;
+    z-index: 1;
+}
+.pickle4{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 100px;
+    top: 1800px;
+    animation: MoveUpDown 4s infinite;
+    z-index: -1;
+    display: flex;
+    transform: rotate(180);
+}
+.pickle5{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 1150px;
+    top: 250px;
+    animation: MoveUpDown 5s infinite;
+    z-index: -1;
+    display: flex;
+    transform: rotate(180);
+}
+.pickle6{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 1100px;
+    top: 900px;
+    animation: MoveUpDown 4s infinite;
+    z-index: 1;
+}
+.pickle8{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1200px;
+    top: 1500px;
+    animation: MoveUpDown 4s infinite;
+    z-index: 1;
+}
+.pickle9{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1050px;
+    top: 1900px;
+    animation: MoveUpDown 5s infinite;
+    z-index: 1;
+}
+
+@keyframes animate {
+	0%,
+	100% {
+		clip-path: polygon(
+            0% 2%, 0% 100%, 100% 100%, 100% 1%, 89% 2%, 78% 1%, 67% 2%, 60% 2%, 48% 3%, 38% 1%, 24% 2%, 15% 1%);
+    }
+
+	50% {
+		clip-path: polygon(
+            0% 1%, 0% 100%, 100% 100%, 100% 2%, 89% 1%, 79% 3%, 68% 2%, 59% 2%, 48% 3%, 40% 2%, 31% 1%, 14% 2%);
+	}
+}
+/* battle section css end*/
