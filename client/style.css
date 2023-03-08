@@ -243,7 +243,7 @@ body{
 
 .lineCont h6{
     position: relative;
-    color: rgb(245, 241, 241);
+    color:  #333333;
 }
 
 .lineFirst{
@@ -251,7 +251,7 @@ body{
     position: relative;
     width: 120px;
     height: 5px;
-    background-color: rgb(245, 241, 241);
+    background-color:  #333333;
     margin-bottom: 7px;
     border-radius: 5px;
     margin-right: 20px;
@@ -264,7 +264,7 @@ body{
     position: relative;
     width: 800px;
     height: 5px;
-    background-color: rgb(245, 241, 241);
+    background-color:  #333333;
     margin-bottom: 7px;
     border-radius: 5px;
     margin-right: 20px;
@@ -323,12 +323,13 @@ body{
     position: relative;
     width: 180px;
     height: 35px;
-    background-color: rgb(245, 241, 241);
+    background-color: #333333;
     margin-bottom: 7px;
     border-radius: 5px;
     margin-right: 20px;
     justify-content: flex-start;
     border: none;
+    transform: skew(20deg);
 
 }
 
@@ -338,12 +339,13 @@ body{
     position: relative;
     width: 710px;
     height: 35px;
-    background-color: rgb(245, 241, 241);
+    background-color: #333333;
     margin-bottom: 7px;
     border-radius: 5px;
     margin-right: 20px;
     justify-content: flex-start;
     border: none;
+    transform: skew(-20deg);
 }
 
 
@@ -748,4 +750,29 @@ body{
             0% 1%, 0% 100%, 100% 100%, 100% 2%, 89% 1%, 79% 3%, 68% 2%, 59% 2%, 48% 3%, 40% 2%, 31% 1%, 14% 2%);
 	}
 }
+@keyframes moveup{
+    0% {
+      transform: translateY(0%);
+    }
+  
+    50% {
+      transform: translateY(50%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+
+@keyframes MoveUpDown{
+    0% {
+      transform: translateY(0%);
+    }
+  
+    50% {
+      transform: translateY(20%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
 /* battle section css end*/
