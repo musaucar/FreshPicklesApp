@@ -286,6 +286,7 @@ body{
     align-items: center;
     border-top: #555 2px solid;
     position: relative;
+    align-self: flex-end;
 }
 
 .footer-col{
@@ -295,7 +296,6 @@ body{
     font-family: 'Times New Roman', Times, serif;
     color:white;
     opacity: 0.7;
-    
 }
 
 /* footer responsive start*/
@@ -670,6 +670,73 @@ body{
     left: 700px;
     top: 1900px;
 }
+.bobble12{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 800px;
+    top: 900px;
+}
+.bobble13{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 1000px;
+    top: 2000px;
+}
+.bobble14{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 700px;
+    top: 1900px;
+}
+.bobble15{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 300px;
+    top: 1000px;
+}
+.bobble16{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 700px;
+    top: 2000px;
+}
+.bobble17{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 1300px;
+    top: 1000px;
+}
+.bobble18{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 800px;
+    top: 1050px;
+}
+.bobble19{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 600px;
+    top: 1600px;
+}
+.bobble20{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 80px;
+    top: 2200px;
+}
+.bobble21{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 600px;
+    top: 1900px;
+}
+.bobble222{
+    position: absolute;
+    animation: moveup 2s infinite;
+    left: 800px;
+    top: 2050px;
+}
+
 
 .pickle1{
     position: absolute;
@@ -682,8 +749,8 @@ body{
 }
 .pickle2{
     position: absolute;
-    width: 250px;
-    height: 250px;
+    width: 220px;
+    height: 220px;
     left: 20px;
     top: 700px;
     animation: MoveUpDown 5s infinite;
@@ -691,10 +758,10 @@ body{
 }
 .pickle3{
     position: absolute;
-    width: 300px;
-    height: 300px;
+    width: 230px;
+    height: 230px;
     left: 20px;
-    top: 1200px;
+    top: 1400px;
     animation: MoveUpDown 6s infinite;
     z-index: 1;
 }
@@ -702,8 +769,8 @@ body{
     position: absolute;
     width: 150px;
     height: 150px;
-    left: 100px;
-    top: 1800px;
+    left: 80px;
+    top: 1900px;
     animation: MoveUpDown 4s infinite;
     z-index: -1;
     display: flex;
@@ -711,8 +778,8 @@ body{
 }
 .pickle5{
     position: absolute;
-    width: 250px;
-    height: 250px;
+    width: 210px;
+    height: 210px;
     left: 1150px;
     top: 250px;
     animation: MoveUpDown 5s infinite;
@@ -722,8 +789,8 @@ body{
 }
 .pickle6{
     position: absolute;
-    width: 300px;
-    height: 300px;
+    width: 240px;
+    height: 240px;
     left: 1100px;
     top: 900px;
     animation: MoveUpDown 4s infinite;
@@ -734,7 +801,7 @@ body{
     width: 200px;
     height: 200px;
     left: 1200px;
-    top: 1500px;
+    top: 1450px;
     animation: MoveUpDown 4s infinite;
     z-index: 1;
 }
@@ -742,8 +809,8 @@ body{
     position: absolute;
     width: 200px;
     height: 200px;
-    left: 1050px;
-    top: 1900px;
+    left: 1200px;
+    top: 2100px;
     animation: MoveUpDown 5s infinite;
     z-index: 1;
 }
